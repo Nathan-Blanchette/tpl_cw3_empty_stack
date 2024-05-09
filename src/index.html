@@ -1,16 +1,54 @@
 <!DOCTYPE html>
 <html lang="fr">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>TITRE DU SITE</title>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Nathan Blanchette</title>
 
-    <link rel="stylesheet" href="styles/main.css" />
-    <script src="scripts/main.js" defer></script>
-  </head>
+        <link rel="stylesheet" href="styles/main.css" />
+        <script src="scripts/main.js" defer></script>
+    </head>
 
-  <body>
-    <h1>TimTools</h1>
-    <p>C'est ici que ça se passe</p>
-  </body>
+    <body>
+        <header class="header">
+            <div class="wrapper">
+                <a class="logoLink" href="#">
+                    <div class="logoHeader">
+                        <img class="logo" src="assets/images/256LogoPortfolioGrey.png" alt="logo" />
+                        <h4>Nathan Blanchette</h4>
+                    </div>
+                    <nav class="nav_primary">
+                        <ul>
+                            <li><a href="#">Projets</a></li>
+                            <li><a href="#">À propos</a></li>
+                            <li><a class="buttonNav" href="#">Me contacter</a></li>
+                        </ul>
+                    </nav>
+                </a>
+            </div>
+        </header>
+
+        <section class="hero">
+            <div class="wrapper">
+                <div class="titleHero">
+                    <h1>Nathan Blanchette</h1>
+                    <p>Designer graphique junior</p>
+                </div>
+                <div class="swiper swiper-hero">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img class="preview" src="assets/images/logoPhantom.png" alt="Logo Phantom" />
+                        </div>
+                        <div class="swiper-slide">
+                            <img class="preview" src="assets/images/fantasyComp.png" alt="Fantasy" />
+                        </div>
+                        <div class="swiper-slide">
+                            <img class="preview" />
+                        </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+        </section>
+    </body>
 </html>
