@@ -224,26 +224,6 @@ html {
 }
 
 /*
-   Footer
-   ========================================================================== */
-.footer {
-    background-color: var(--color-primary);
-}
-
-.footer .wrapper {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 15%;
-}
-
-.reserved h3 {
-    color: var(--color-red);
-    font-family: 'Bebas Neue', sans-serif;
-    font-weight: 400;
-}
-
-/*
    description
    ========================================================================== */
 .description {
@@ -252,6 +232,12 @@ html {
     justify-content: space-between;
     align-items: center;
     gap: 10%;
+    position: relative;
+}
+
+.red {
+    margin: 0;
+    border: 3px solid #990100;
 }
 
 .photoNathan {
@@ -290,6 +276,68 @@ html {
     color: #990100;
 }
 
+/*
+   Plus
+   ========================================================================== */
+.moreAbout {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 15%;
+    background-color: #333333;
+}
+
+/*
+   Logiciels
+   ========================================================================== */
+.logiciels {
+    background-color: #333333;
+}
+
+.logiciels ul {
+    padding: 0 20px;
+}
+
+.logiciels h2 {
+    color: #990100;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 42px;
+    font-weight: 400;
+    margin: 0;
+    padding-top: 15px;
+}
+
+.logiciels ul li p {
+    font-family: 'Bebas Neue', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+/*
+   Passions
+   ========================================================================== */
+.passions {
+    background-color: #333333;
+}
+
+.passions ul {
+    padding: 0 20px;
+}
+
+.passions h2 {
+    color: #990100;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 42px;
+    font-weight: 400;
+    margin: 0;
+    padding-top: 15px;
+}
+
+.passions ul li p {
+    font-family: 'Bebas Neue', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
 /*
    Projects
    ========================================================================== */
@@ -363,4 +411,24 @@ html {
 
 .imgProject {
     width: 100%;
+}
+
+/*
+   Footer
+   ========================================================================== */
+.footer {
+    background-color: var(--color-primary);
+}
+
+.footer .wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15%;
+}
+
+.reserved h3 {
+    color: var(--color-red);
+    font-family: 'Bebas Neue', sans-serif;
+    font-weight: 400;
 }
