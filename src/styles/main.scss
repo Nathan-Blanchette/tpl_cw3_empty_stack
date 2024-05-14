@@ -404,13 +404,68 @@ html {
    ========================================================================== */
 .project {
     background-color: #333333;
+    position: relative;
+    padding-bottom: 25px;
 }
 
-.image {
+.project .wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
-.imgProject {
+.project .image h1 {
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    color: #990100;
+}
+
+.project .image .imgProject {
+    background-color: #222222;
     width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.focus {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.focus .imgFocus {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+    width: 50%;
+    height: 50%;
+}
+
+.focus .imgFocus img {
+    width: 100%;
+}
+
+.double {
+    grid-column: 1 / -1;
+}
+
+.apps ul {
+    padding-left: 0;
+}
+
+.apps ul li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.app {
+    width: 60px;
+    height: 60px;
 }
 
 /*
@@ -430,4 +485,15 @@ html {
     color: var(--color-red);
     font-family: 'Bebas Neue', sans-serif;
     font-weight: 400;
+}
+
+.not_found {
+    background-color: #333333;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    padding: 12% 0;
 }
